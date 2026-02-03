@@ -10,8 +10,8 @@ spring:
     config:
       server:
         native:
-          search-location:
-            - classpath:config-repo
+          search-locations:
+            - classpath:/aston-config-repo
 
 management:
   endpoints:
