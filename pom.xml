@@ -40,6 +40,12 @@
             <artifactId>spring-cloud-config-server</artifactId>
         </dependency>
 
+        <!-- для регистрации в Eureka-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+
         <!-- Для здоровья и мониторинга -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
