@@ -10,7 +10,7 @@ eureka:
 
 spring:
   application:
-    name: aston-project
+    name: user-service
 
   datasource:
     url: jdbc:postgresql://localhost:5432/aston_project_db
