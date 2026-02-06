@@ -11,14 +11,14 @@ eureka:
 spring:
   application:
     name: config-server
-  profiles:
-    active: native
+
   cloud:
     config:
       server:
-        native:
-          search-locations:
-            - classpath:/aston-config-repo
+        git:
+          uri: https://github.com/gedfalk/aston-configRepo/
+          default-label: main
+          clone-on-start: true
 
 management:
   endpoints:
